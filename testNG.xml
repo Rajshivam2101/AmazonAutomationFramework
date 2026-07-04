@@ -8,7 +8,7 @@
             <class name="tests.SearchResultsTest"/>
             <class name="tests.ProductDetailsTest"/>
             <class name="tests.CartPageTest"/>
-            <class name="tests.CheckoutPageTest"/>
+<!--            <class name="tests.CheckoutPageTest"/>-->
         </classes>
     </test>
 

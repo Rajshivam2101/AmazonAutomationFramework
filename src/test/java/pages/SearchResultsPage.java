@@ -20,7 +20,6 @@ public class SearchResultsPage {
     @FindBy(xpath = "//input[@id='twotabsearchtextbox']")
     private WebElement enterInputField;
 
-
     @FindBy(xpath = "//input[@id='nav-search-submit-button']")
     private WebElement clickSubmitButton;
 
