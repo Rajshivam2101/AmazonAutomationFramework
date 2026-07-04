@@ -23,7 +23,8 @@ public class CartPage {
     public void onToCart() {
         WaitsUtil.waitForClickable(driver, cart, 10);
         cart.click();
-        driver.switchTo().alert();
+       // driver.switchTo().alert();
+        driver.navigate().back();
     }
 
 
